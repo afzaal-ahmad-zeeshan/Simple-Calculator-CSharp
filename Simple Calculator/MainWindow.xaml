@@ -1,0 +1,43 @@
+﻿<Window x:Class="Simple_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Calculator | Xee Shawn Projects" Height="350" Width="525">
+    <Grid>
+        <StackPanel VerticalAlignment="Top">
+            <Border Height="50" BorderThickness="0, 0, 0, 1" BorderBrush="Black">
+                <TextBlock FontSize="25" HorizontalAlignment="Right" Margin="20, 10, 20, 0" Name="Numeric">0</TextBlock>
+            </Border>
+        </StackPanel>
+        <StackPanel Margin="20, 70, 20, 0">
+            <StackPanel HorizontalAlignment="Left">
+                <!-- Left side -->
+                <Button Width="50" FontSize="15" Name="Plus" Click="Operator_Click" HorizontalAlignment="Left">+</Button>
+                <Button Width="50" FontSize="15" Name="Minus" Click="Operator_Click" HorizontalAlignment="Left" Margin="80, -24, 0, 0">-</Button>
+                <Button Width="50" FontSize="15" Name="Multiply" Click="Operator_Click" HorizontalAlignment="Left" Margin="160, -24, 0, 0">x</Button>
+                <TextBlock Text="&#xD;" Height="50"/>
+                <Button Width="50" FontSize="15" Name="Divide" Click="Operator_Click" HorizontalAlignment="Left" Margin="0, -20, 0, 0">/</Button>
+                <Button Width="50" FontSize="15" Name="SquareRoot" Click="Operator_Click" HorizontalAlignment="Left" Margin="80, -25, 0, 0">√</Button>
+                <Button Width="50" FontSize="15" Name="Modulus" Click="Operator_Click" HorizontalAlignment="Left" Margin="160, -25, 0, 0">%</Button>
+                <TextBlock Text="&#xD;" Height="50"/>
+                <Button Width="50" FontSize="15" Name="Factorial" Click="Operator_Click" HorizontalAlignment="Left" Margin="0, -25, 0, 0">!</Button>
+                <Button Width="130" FontSize="15" Name="Equals" Click="Operator_Click" HorizontalAlignment="Left" Margin="80, -25, 0, 0">=</Button>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right" Margin="30, -128, 0, 0">
+                <!-- Right side -->
+                <Button Width="50" FontSize="15" Name="ValueOne" Click="Value_Click">1</Button>
+                <Button Width="50" FontSize="15" Name="ValueTwo" Click="Value_Click" Margin="150, -25, 0, 0">2</Button>
+                <Button Width="50" FontSize="15" Name="ValueThree" Click="Value_Click" Margin="300, -25, 0, 0">3</Button>
+                <TextBlock Text="&#xD;"/>
+                <Button Width="50" FontSize="15" Name="ValueFour" Click="Value_Click">4</Button>
+                <Button Width="50" FontSize="15" Name="ValueFive" Click="Value_Click" Margin="150, -25, 0, 0">5</Button>
+                <Button Width="50" FontSize="15" Name="ValueSix" Click="Value_Click" Margin="300, -25, 0, 0">6</Button>
+                <TextBlock Text="&#xD;"/>
+                <Button Width="50" FontSize="15" Name="ValueSeven" Click="Value_Click">7</Button>
+                <Button Width="50" FontSize="15" Name="ValueEight" Click="Value_Click" Margin="150, -25, 0, 0">8</Button>
+                <Button Width="50" FontSize="15" Name="ValueNine" Click="Value_Click" Margin="300, -25, 0, 0">9</Button>
+                <TextBlock Text="&#xD;"/>
+                <Button Width="200" HorizontalAlignment="Right" Name="ValueZero" FontSize="15">0</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
