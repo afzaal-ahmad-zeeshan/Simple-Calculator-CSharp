@@ -1,0 +1,1 @@
+This section includes the code required for the Windows 8 metro styled applications. 
