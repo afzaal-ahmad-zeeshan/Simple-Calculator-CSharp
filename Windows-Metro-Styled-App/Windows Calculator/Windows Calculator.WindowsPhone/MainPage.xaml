@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Windows_Calculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Windows_Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock FontSize="25" HorizontalAlignment="Center">Under Construction</TextBlock>
+        <TextBlock Margin="10, 50, 10, 0" TextWrapping="Wrap">I am currently working on developing the Windows Phone application. Please be patient through! Untill then, feel free to use the Windows version of this software.</TextBlock>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="100">:(</TextBlock>
+    </Grid>
+</Page>
